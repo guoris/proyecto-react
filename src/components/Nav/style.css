@@ -1,0 +1,118 @@
+.logo {
+    width: 170px;
+    padding-top: 5px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control {
+    width: 350px;
+    height: 35px;
+    border: 3px solid #777777;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+.form-control:hover {
+    border: 3px solid #616161;
+    background-color: #dedede;
+    border-radius: 30px;
+}
+.lupa {
+    width: 65px;
+    position: relative;
+    right: 57px;
+}
+.nav-listcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+}
+.nav-listheader {
+    display: flex;
+    flex-direction: row;}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.logo-login {
+    width: 80px;
+}
+.logo-carrito {
+    margin-top: 3px;
+    width: 80px;
+}
+.p-user {
+    font-size: 1.6rem;
+    margin-left: 17px;
+    color: #ffffff;
+    z-index: 9999;
+}
+.p-carrito {
+    font-size: 1.6rem;
+    margin-left: 3px;
+    color: #ffffff;
+    z-index: 9999;
+}
+  .p-count {
+    color: #ffffff;
+    background-color: red;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    /* width: 32px; */
+    text-align: center;
+    padding-left: 11px;
+    margin-left: 8px;
+}
+.p-user:hover {
+    color: #777777;
+}
+.p-carrito:hover{
+    color: #777777;
+}
+  
+#centrar {
+    display: flex;
+    justify-content: center;
+}
+.nav-list {
+    border-top: 3px solid #777777;
+    background-color: #000000;
+    font-size: 2rem;
+    padding: 8px 0px;
+}
+.nav-list__item {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+  
+.nav-list__item a {
+    color: #ffffff;
+}
+  
+.nav-list__item a:hover {
+    color: #777777;
+    padding-bottom: 8px;
+    
+}
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+.disabled a {
+    color: #777777;
+}
+.img-banner {
+    width: 100%;
+}

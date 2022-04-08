@@ -1,0 +1,47 @@
+/* GENERAL */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+html {   
+  font-size: 62.5%;
+}
+
+body {
+  background: #ffffff
+}
+
+body::-webkit-scrollbar {
+  width: 0.65rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-search-cancel-button {
+  display: block;
+  cursor: pointer;
+  margin-right: 55px;
+  opacity: 1;
+}
+::-webkit-inner-spin-button {
+  /* appearance: none; */
+  margin: 0px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background: #242424;
+}
+
+.banner {
+  width: 100%;
+}
+
+
+/* HEADER & NAV */

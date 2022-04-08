@@ -1,0 +1,195 @@
+.product-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cart-title {
+    display: flex;
+    justify-content: center;
+}
+.cart-title h1 {
+    padding: 20px 0px;
+    font-size: 5rem;
+}
+.product-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80rem;
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    background: #fdfdfd;
+    margin-right: 50px;
+}
+.games-txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.games-txt2 {
+    font-size: 2.5rem;
+}
+.total-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78rem;
+    padding: 5px 0px;
+}
+.total-img {
+    width: 30px
+}
+.total-terms {
+    font-size: 1.4rem;
+    margin-right: 20rem;
+    color: #969696;
+}
+.terms-txt {
+    text-decoration: underline;
+    color: #ea1971;
+}
+.terms-txt:hover {
+    color: #9d43e6;
+    cursor: pointer;
+}
+.total-total {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.total-value {
+    color: #ea1971;
+}
+
+.payment-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.payment-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47rem;
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+    background: #fdfdfd;
+}
+.email-icon {
+    width: 25px;
+    position: relative;
+    right: 19rem;
+    top: 4.2rem;
+}
+.confirmation-email {
+    width: 43rem;
+    height: 42px;
+    border: 1px solid #969696;
+    border-radius: 7px;
+    padding: 0px 15px 0px 50px;
+    margin: 10px 0px;
+}
+.payment-checkoff {
+    width: 43rem;
+}
+.checkoff {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+}
+
+.checkout-btn {
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 15px 155px;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: darkblue;
+    margin: 10px 0px;
+}
+.subtotal {
+    padding: 12px 0px;
+    border-bottom: 1px solid black;
+}
+.checkout-container {
+    width: 43rem;
+}
+.checkout-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub {
+    font-size: 1.6rem;
+}
+.sub-2 {
+    font-size: 1.6rem;
+    margin-left: 27rem;
+}
+.sub-3 {
+    font-size: 1.6rem;
+}
+.sub-4 {
+    font-size: 1.2rem;
+}
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 0px;
+    border-bottom: 1px solid black;
+}
+.ptotal {
+    font-size: 2rem;
+}
+.ptotal-2 {
+    font-size: 2rem;
+    margin-left: 20rem;
+}
+.ptotal-3 {
+    font-size: 2rem;
+}
+.ptotal-4 {
+    font-size: 1.6rem;
+}
+.payment-methods {
+    width: 43rem;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+}
+.mastercard {
+    width: 110px;
+    margin: 0px 2px;
+}
+.mercadopago {
+    width: 27px;
+    margin: 0px 2px;
+}
+.paypal {
+    width: 80px;
+    margin: 0px 2px;
+}
+.visa {
+    width: 65px;
+    margin: 0px 2px;
+}
+.pagofacil {
+    width: 40px;
+    margin: 0px 2px;
+}
+.rapipago {
+    width: 70px;
+    margin: 0px 2px;
+}
+.payment-terms {
+    width: 43rem;
+    padding: 10px 0px;
+}
+.p-terms {
+    font-size: 1.2rem;
+}

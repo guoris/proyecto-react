@@ -16,13 +16,19 @@ El objetivo principal es la entrega final del curso de CoderHouse, la pagina est
 Nota: Para poder usar los siguientes comandos, siga los siguientes pasos:
 
 - Clonar el repositorio de GitHub:
-`$ git clone https://github.com/guoris/proyecto-react.git `
+ ```bash
+ $ git clone https://github.com/guoris/proyecto-react.git
+ ```
 
 - Instalar las dependecias:
-`$ npm install`
+ ```bash
+ $ npm install
+ ```
 
 - Ejecutar el proyecto:
-`$ npm run start`
+ ```bash
+ $ npm run start
+ ```
 
 # Lenguajes:
 El Proyecto esta basado en HTML, CSS y ReactJS puro.
